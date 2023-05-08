@@ -1,0 +1,298 @@
+body {
+    background-color: #f0e1b1;
+    margin: 0px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.top-container {
+    background-image: linear-gradient(#b03882, #b04038);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #c4b343;
+    position: relative;
+    padding-top: 40px;
+    border-bottom-left-radius: 85px;
+    border-bottom-right-radius: 85px;
+}
+
+.location-container {
+    background-image: linear-gradient(#b06638, #b0ac38);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #c4b343;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 50px;
+    border-radius: 80px;
+}
+
+.music-container {
+    background-image: linear-gradient(#91ab3a, #67ab3a);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #c4b343;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 50px;
+    border-radius: 80px;
+}
+
+.language-container {
+    background-image: linear-gradient(#3aab56, #3a9eab);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #c4b343;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 50px;
+    border-radius: 80px;
+}
+
+.food-container {
+    background-image: linear-gradient(#3a82ab, #3a52ab);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #c4b343;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 50px;
+    border-radius: 80px;
+}
+
+.clothing-container {
+    background-image: linear-gradient(#523aab, #713aab);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #c4b343;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 50px;
+    border-radius: 80px;
+}
+
+.resources {
+    background-image: linear-gradient(#963aab, #ab3a96);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #c4b343;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+.resource_link {
+    color: #bfa915;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 1.15rem;
+    width: 900px;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: -30px;
+    color: #d4bb17;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.location-container p {
+    font-size: 1.65rem;
+    color: #d4bb17;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 350px;
+    word-wrap: break-word;
+    width: 1000px;
+}
+
+.music-container p {
+    font-size: 1.65rem;
+    color: #d4bb17;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 300px;
+    word-wrap: break-word;
+    width: 1000px;
+}
+
+.language-container p {
+    font-size: 1.65rem;
+    color: #d4bb17;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 350px;
+    word-wrap: break-word;
+    width: 900px;
+}
+
+.food-container p {
+    font-size: 1.65rem;
+    color: #d4bb17;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 350px;
+    word-wrap: break-word;
+    width: 900px;
+}
+
+.clothing-container p {
+    font-size: 1.65rem;
+    color: #d4bb17;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 350px;
+    word-wrap: break-word;
+    width: 900px;
+}
+
+.indian_button {
+    border-radius: 80px;
+    width: 200px;
+    height: 80px;
+    font-size: 1.5rem;
+    background-image: linear-gradient(#17bbd4, #1756d4);
+    color: #d4bb17;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #c4b343;
+    margin: 30px;
+}
+
+.trini_button {
+    border-radius: 80px;
+    width: 200px;
+    height: 80px;
+    font-size: 1.5rem;
+    background-image: linear-gradient(#17bbd4, #1756d4);
+    color: #d4bb17;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #c4b343;
+    margin: 30px;
+    margin-right: 350px;
+    float: right;
+}
+
+.india_map img{
+    width: 208px;
+    height: 243px;
+    float: right;
+    border-radius: 50px;
+    margin-right: 80px;
+    transition: 2s;
+}
+
+.india_img img{
+    width: 156px;
+    height: 182.25px;
+    float: right;
+    border-radius: 50px;
+    margin-right: 80px;
+    transition: 2s;
+}
+
+.food-container .india_img img{
+    width: 156px;
+    height: 182.25px;
+    float: right;
+    border-radius: 50px;
+    margin-right: 50px;
+    transition: 2s;
+}
+
+.trinidad_map img{
+    width: 245px;
+    height: 206px;
+    float: left;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+
+.trini_img img{
+    width: 183.75px;
+    height: 154.5px;
+    float: left;
+    border-radius: 50px;
+    margin-left: 80px;
+    transition: 3s;
+}
+
+.music-container .trini_img img:hover{
+    height: 412px;
+    transition: 3s;
+}
+
+.language-container .trini_img img:hover{
+    height: 275px;
+    transition: 3s;
+}
+
+.food-container .india_img img:hover{
+    height: 350px;
+    transition: 3s;
+}
+
+.indian_title {
+    color: #d4bb17;
+    font-size: 5.35rem;
+    font-family: 'Sacramento', cursive;
+    margin: 20px auto 0px auto;
+    transition: 2s;
+    position: relative;
+    z-index: 9;
+}
+
+.trini_title {
+    color: #d4bb17;
+    font-size: 5.35rem;
+    font-family: 'Sacramento', cursive;
+    margin: -130px auto 0px auto;
+    opacity: 0;
+    rotate: 180deg;
+    position: relative;
+    transition: 2s;
+}
+
+.title {
+    margin-top: -200px;
+    margin-bottom: 100px;
+    transition: 2s;
+}
+
+.india_flag_image {
+    width: 150px;
+    height: 150px;
+    rotate: 15deg;
+    margin-right: 1190px;
+    transition: 2s;
+}
+
+.trini_flag_image {
+    width: 150px;
+    height: 150px;
+    rotate: -15deg;
+    margin-left: 1190px;
+    margin-top: -90px;
+    transition: 2s;
+}
+
+.title:hover {
+    .trini_title {
+        opacity: 1;
+    }
+    .indian_title {
+        opacity: 0;
+    }
+    rotate: 180deg;
+    transition: 3s;
+}
+
